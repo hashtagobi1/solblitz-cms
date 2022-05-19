@@ -10,6 +10,7 @@ import team from './team'
 import testimonial from './testimonial'
 import seo from './seo'
 import marketing from './marketing'
+import partnerTypes from './partnerTypes'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -25,6 +26,7 @@ export default createSchema({
     team,
     testimonial,
     seo,
-    marketing
+    marketing,
+    partnerTypes
   ]),
 })
